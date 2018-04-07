@@ -1,0 +1,33 @@
+
+  .c1{
+    width: 86%;
+    height: 40%;
+    margin: 0 auto;
+    line-height: 130%;
+  }
+  .c4{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 50%;
+    margin: 5% 10% 4% 5%;
+  }
+  .c2, .c3{
+
+    width: 45%;
+    margin: 0 auto;
+ }
+
+  .c2{
+    font-size: 1em;
+  }
+
+  .c3 .frame img{
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+    object-fit: cover;
+    overflow: hidden;
+  }

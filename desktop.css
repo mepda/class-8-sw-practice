@@ -1,0 +1,33 @@
+
+  .container{
+    display: flex;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .c1{
+    margin: 1.5% auto 1.5% 1.5%;
+    height: 721px;
+    width: 75%;
+    line-height: 250px;
+  }
+
+  .c2, .c3{
+
+    width: 100%;
+    margin: 6% auto 6% auto;
+ }
+
+  .c2{
+    font-size: 1.5vw;
+  }
+
+  .c2 p {
+    padding-top: 16%;
+  }
+
+  .c4{
+    display: inline-block;
+    width: 25%;
+    margin: 0 2% 5% 1.5%;
+  }
