@@ -33,22 +33,7 @@
     </div>
   </div>
   <script>
-    (function(){
-      'use strict';
-
-      if(!('serviceWorker' in navigator)){
-        console.log('sw not supported');
-        return;
-      }
-      navigator.serviceWorker.register('/service-worker.js')
-      .then(function(registration){
-        console.log(`registered at ${registration.scope}`);
-      })
-      .catch(function(error){
-        console.log(`registration failed: ${error}`);
-      })
-
-    })()
+// TODO: add service worker
   </script>
 </body>
 </html>
